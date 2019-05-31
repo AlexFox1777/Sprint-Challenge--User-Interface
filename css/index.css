@@ -144,3 +144,98 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*header part*/
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 25px 0px;
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 0px 38px;
+    color: black;
+}
+.top-img{
+    margin-bottom: 25px;
+}
+/*boxes*/
+.middle-content .boxes .box1{
+    background: teal;
+}
+.middle-content .boxes .box2{
+    background: gold;
+}
+.middle-content .boxes .box3{
+    background: cadetblue;
+}
+.middle-content .boxes .box4{
+    background: coral;
+}
+.middle-content .boxes .box5{
+    background: crimson;
+}
+.middle-content .boxes .box6{
+    background: forestgreen;
+}
+.middle-content .boxes .box7{
+    background: darkorchid;
+}
+.middle-content .boxes .box8{
+    background: hotpink;
+}
+.middle-content .boxes .box9{
+    background: indigo;
+}
+.middle-content .boxes .box10{
+    background: dodgerblue;
+}
+/*about.html*/
+/*top-container*/
+.ab-top-content{
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.ab-text-container{
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+/*content*/
+.ab-content{
+    display: flex;
+    justify-content: space-around;
+}
+.ab-container{
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+.ab-content .ab-container img{
+    margin: 8px 0px;
+}
+.ab-content .ab-container p{
+    width: 370px;
+}
+.ab-button{
+    display: inline-block;
+    font-size: 15px;
+    padding: 0px 15px;
+    margin: 20px 0px;
+    height: 35px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 12%;
+}
+.ab-button:hover{
+    background: #d07fa7;
+    border: 1px solid #985d7a;
+    color: white;
+}
+/*bottom-container*/
+.ab-bottom-content{
+    display: flex;
+    margin: 0px 0px 35px 0px;
+}
